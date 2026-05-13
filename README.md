@@ -1,11 +1,11 @@
 # Connect Four
-This project simulates a connect-four game in Java using a multi-dimensional char array in Java.
+This project simulates a connect-four game in Java using a multi-dimensional char array.
 
 When the program starts running a while loop is initiated that asks each player to choose a column to drop their letter in, either Yellow or Red.
 
 Once the user selects their column, the array is updated in the lowest spot of that column and the value is set to either R or Y.
 
-The loop keeps running until 4 adjacent array spots are the same value either veritcally, horizontally or diagonally.
+The loop keeps running until 4 adjacent array spots are the same value either vertically, horizontally or diagonally.
 
 The program also can process a draw early if at any point of the game it becomes impossible to have 4 adjacent array values to be the same.
 
